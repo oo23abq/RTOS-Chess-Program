@@ -1,26 +1,49 @@
-# 🕹️ Speed Chess Clock ⏱️ – Arduino + FreeRTOS
+# ⏱️ Speed Chess Clock – Arduino + FreeRTOS
 
-A real-time speed chess clock built using an Uno R3 microprocessor, a LCD module & FreeRTOS for quick multitasking.
-This project is meant for mediym time format rather than bullet & classical ches. Typically, this is 5+0
+A real-time **Speed Chess Clock** built on **Arduino Uno** with **FreeRTOS**, enabling accurate timekeeping, responsive player switches, and modular task management. This project demonstrates embedded system design using multitasking, hardware interrupts, and LCD display handling.
 
+---
 
-**Features**
+## 🚀 Features
 
-🎯 Real-time responsiveness with FreeRTOS task prioritisation
+- 🧠 **FreeRTOS-based** multitasking
+- 🔁 **Preemptive task scheduling** (button input always responsive)
+- ⌛ **Accurate 1-second countdown**
+- 🔘 **Event-driven turn switching** using semaphores
+- 📟 **LCD time display** for both players
+- 💡 **LED indicators** to show active player
+- 🔧 Modular and scalable design
 
-🔘 Preemptive button handling using semaphores
+---
 
-🕐 Accurate 1-second countdown per player
+## 🛠️ Hardware Components
 
-💡 LED indicators to show active player
+| Component            | Description                     |
+|---------------------|---------------------------------|
+| Arduino Uno R3       | Main microcontroller board      |
+| 16x2 I2C LCD Display | For showing timers              |
+| 2x Push Buttons      | For white/black clock control   |
+| 2x LEDs              | To indicate current player      |
+| Resistors (optional) | For LEDs                        |
+| Breadboard + Wires   | For prototyping setup           |
 
-📟 LCD display for dynamic time updates
+---
 
-🧩 Easily expandable (pause button, buzzer, BLE, etc.)
+## 📚 Libraries Used
 
+### ➤ **Software Libraries**
 
+| Library               | Purpose                              |
+|------------------------|--------------------------------------|
+| `Arduino_FreeRTOS.h`  | FreeRTOS kernel on AVR microcontrollers |
+| `Wire.h`              | I2C communication with LCD           |
+| `LiquidCrystal_I2C.h` | I2C LCD control (16x2 screen)        |
 
-📷 Media Preview
+You can install these via:
+- **Library Manager** in Arduino IDE, or
+- Add to `libraries/` folder of your sketchbook.
 
-Test: https://github.com/user-attachments/assets/9e78e4b4-2819-4d4f-a8d0-05c0f53357c5
+---
+
+## 📁 Folder Structure
 
