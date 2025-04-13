@@ -3,6 +3,7 @@
 A real-time speed chess clock built using an Uno R3 microprocessor, a LCD module & FreeRTOS for quick multitasking.
 This project is meant for mediym time format rather than bullet & classical ches. Typically, this is 5+0
 
+
 **Features**
 
 🎯 Real-time responsiveness with FreeRTOS task prioritisation
@@ -16,6 +17,7 @@ This project is meant for mediym time format rather than bullet & classical ches
 📟 LCD display for dynamic time updates
 
 🧩 Easily expandable (pause button, buzzer, BLE, etc.)
+
 
 
 📷 Media Preview
