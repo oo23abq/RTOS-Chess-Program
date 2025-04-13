@@ -12,11 +12,10 @@ A real-time **Speed Chess Clock** built on **Arduino Uno** with **FreeRTOS**, en
 - 🔘 **Event-driven turn switching** using semaphores
 - 📟 **LCD time display** for both players
 - 💡 **LED indicators** to show active player
-- 🔧 Modular and scalable design
 
 ---
 
-## 🛠️ Hardware Components
+## 🛠️ Hardware 
 
 | Component            | Description                     |
 |---------------------|---------------------------------|
@@ -25,11 +24,11 @@ A real-time **Speed Chess Clock** built on **Arduino Uno** with **FreeRTOS**, en
 | 2x Push Buttons      | For white/black clock control   |
 | 2x LEDs              | To indicate current player      |
 | Resistors (optional) | For LEDs                        |
-| Breadboard + Wires   | For prototyping setup           |
+| Breadboard, wires    | For prototyping setup           |
 
 ---
 
-## 📚 Libraries Used
+## 📚 Libraries 
 
 ### ➤ **Software Libraries**
 
@@ -45,5 +44,4 @@ You can install these via:
 
 ---
 
-## 📁 Folder Structure
 
